@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>search_result</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="css/search_result.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<!-- Add your custom HEAD content here -->
+		<script type="text/javascript">
+			function clickSearch() 
+			{
+				if(true)
+				{
+					window.location.href = "search_result.html"
+			}
+			else
+			{
+				    window.location.href = "noresult.html"
+				}
+			}
+		</script>
+	
+	</head>
+	<body>
+		<div id="content-container" >
+			
+			<div id="_bg__search_result"  ></div>
+				<img src="images/image_3.png" id="image_3" />
+			<div id="rectangle_5"  ></div>
+
+			
+			<br><br><br>
+			<div>
+				<a href="index2" style="text-decoration:none;
+					left: 10%;
+					width: 722px;
+					height: 149px;
+					overflow: hidden;
+					font-family: Euphoria Script;
+					font-size: 105px;
+					-ms-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+					-o-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+					-webkit-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+					-moz-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+					text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+					color: #FFFFFF;
+					padding-left: 10%"
+				>
+					Soul's Lab
+				</a>
+			</div>
+			<script>
+			var inputValue = new URL(window.location.href).searchParams.get("input");
+
+			  // print the value on the page
+			  document.write(inputValue);
+			</script>
+		</div>
+		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+		<script src="js/scripts.js"></script>
+		<script>
+			var rawResult = "[[${jsonArray}]]";
+			var result = JSON.parse(rawResult.replace(/&quot;/g, '"'));
+			console.log(result)
+		</script>
+	</body>
+	
+
+</html>
+
+
