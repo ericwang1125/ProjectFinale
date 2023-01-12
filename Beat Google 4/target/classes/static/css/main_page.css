@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/*
+	@name main_page
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1920px; width: 1920px; height: 1080px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__main_page {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(255,253.41,235.88,1);
+}
+
+
+#pexels_pixabay_462024_1 {
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+}
+
+#group_7 {
+	top: 322px;
+	left: 513px;
+	width: 893px;
+	height: 100px;
+}
+
+#rectangle_2 {
+	top: 0px;
+	left: 0px;
+	width: 893px;
+	height: 100px;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	color:rgba(255,255,255,1);
+}
+
+#group_13 {
+	top: 322px;
+	left: 513px;
+	width: 893px;
+	height: 100px;
+}
+#group_8 {
+	top: 0px;
+	left: 0px;
+	width: 893px;
+	height: 100px;
+}
+
+#rectangle_2_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 893px;
+	height: 100px;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-indent: 25px;
+}
+
+
+#ellipse_2 {
+	top: 0px;
+	left: 793px;
+	width: 100px;
+	height: 100px;
+}
+
+
+#image_1 {
+	top: 16px;
+	left: 801px;
+	width: 66px;
+	height: 69px;
+}
+
+
+#rectangle_4 {
+	top: 153px;
+	left: 697px;
+	width: 520px;
+	height: 148px;
+	background:rgba(255,255,255,0);
+}
+
+
+#soul_s_lab {
+	top: 153px;
+	left: 734px;
+	width: 722px;
+	height: 149px;
+	overflow: hidden;
+	font-family: Euphoria Script;
+	font-size: 128px;
+	text-align: left;
+	-ms-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:1px 5px 4px rgba(0,0,0,0.25);
+}
+
+
+
+/* Add your custom CSS here */
+ button 
+ {
+    all: unset;
+    cursor: pointer;   
+ }
+
+ input
+ {
+ 	border:none;
+ 	color: #000000;
+ }
+
+ input:focus
+ {
+	outline:none;
+ }
